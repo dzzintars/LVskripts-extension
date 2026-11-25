@@ -1,12 +1,7 @@
 {
 	"Konstruktors": {
 		"prefix": "konstruktors",
-		"body": [
-			"konstruktors() {",
-			"\tsuper();",
-			"\t$0",
-			"}"
-		]
+		"body": ["konstruktors() {", "\tsuper();", "\t$0", "}"]
 	},
 	"Klases definīcija": {
 		"prefix": "klase",
@@ -21,23 +16,15 @@
 	},
 	"Imports": {
 		"prefix": "importēt",
-		"body": [
-			"importēt { $0 } from \"${1:modulis}\";"
-		]
+		"body": ["importēt { $0 } from \"${1:modulis}\";"]
 	},
 	"Printēt konsolē": {
 		"prefix": "printēt",
-		"body": [
-			"printēt($1);",
-			"$0"
-		]
+		"body": ["printēt($1);", "$0"]
 	},
 	"Mest kļūdu": {
 		"prefix": "mest",
-		"body": [
-			"mest jauns Error(\"$1\");",
-			"$0"
-		]
+		"body": ["mest jauns Error(\"$1\");", "$0"]
 	},
 	"Priekš cikls": {
 		"prefix": "priekš",
@@ -81,11 +68,7 @@
 	},
 	"Ja deklarācija": {
 		"prefix": "ja",
-		"body": [
-			"ja (${1:kondīcija}) {",
-			"\t$TM_SELECTED_TEXT$0",
-			"}"
-		]
+		"body": ["ja (${1:kondīcija}) {", "\t$TM_SELECTED_TEXT$0", "}"]
 	},
 	"Ja-citādi deklarācija": {
 		"prefix": "jacitādi",
@@ -99,9 +82,7 @@
 	},
 	"Jauns deklarācija": {
 		"prefix": "jauns",
-		"body": [
-			"konstante ${1:vārds} = jauns ${2:veids}(${3:arguments});$0"
-		]
+		"body": ["konstante ${1:vārds} = jauns ${2:veids}(${3:arguments});$0"]
 	},
 	"Izvēle deklarācija": {
 		"prefix": "izvēle",
@@ -118,19 +99,11 @@
 	},
 	"Kamēr deklarācija": {
 		"prefix": "kamēr",
-		"body": [
-			"kamēr (${1:kondīcija}) {",
-			"\t$TM_SELECTED_TEXT$0",
-			"}"
-		]
+		"body": ["kamēr (${1:kondīcija}) {", "\t$TM_SELECTED_TEXT$0", "}"]
 	},
 	"Darīt-kamēr deklarācija": {
 		"prefix": "darītkamēr",
-		"body": [
-			"darīt {",
-			"\t$TM_SELECTED_TEXT$0",
-			"} kamēr (${1:kondīcija});"
-		]
+		"body": ["darīt {", "\t$TM_SELECTED_TEXT$0", "} kamēr (${1:kondīcija});"]
 	},
 	"Mēģināt-noķert deklarācija": {
 		"prefix": "mēģinātnoķert",
@@ -168,10 +141,6 @@
 	},
 	"Asinhronas funkcijas ekspresija": {
 		"prefix": "asinhrons bulta funkcija",
-		"body": [
-			"asinhrons (${1:parametri}) => {",
-			"\t$TM_SELECTED_TEXT$0",
-			"}"
-		]
+		"body": ["asinhrons (${1:parametri}) => {", "\t$TM_SELECTED_TEXT$0", "}"]
 	}
 }
